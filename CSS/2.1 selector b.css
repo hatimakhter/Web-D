@@ -1,0 +1,88 @@
+/* universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+
+/* element selector */
+h1, h3{
+    font-weight: bold;
+}
+
+/* id selector */
+#login{
+    background-color: brown;
+    color: white;
+}
+#signup{
+    background-color: aqua;
+    color: white;
+}
+
+/* class selector */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+.follow{
+    background-color: yellow;
+    color: brown;
+}
+
+#ul{
+    color: rgb(240, 123, 123);
+}
+#myId{
+    color: green;
+}
+
+/* descendant selector */
+nav a{
+    color: purple;
+}
+
+/* adjacent sibling selector */
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: rgb(55, 93, 168);
+    color: white;
+}
+
+/* child combinator */
+div > input {
+    background-color: rgb(238, 221, 189);
+}
+
+/* attribute selector */
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+
+/* pseudo class */
+/* hover  */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: overline;
+}
+/* active  */
+button:active{
+    background-color: blue;
+    color: antiquewhite;
+}
+/* cheaked */
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight: bold;
+}
+/* nth-of-type  */
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
