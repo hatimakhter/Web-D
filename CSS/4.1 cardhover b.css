@@ -1,0 +1,18 @@
+.card{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.desc{
+    padding: 0 2px 0 2px;
+    font-size: 15px;
+}
+img{
+    border-radius: 5px;
+}
+.card:hover{
+    box-shadow: 4px 8px 16px goldenrod;
+}
