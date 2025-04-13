@@ -1,4 +1,4 @@
-#container{
+.container{
     height: 300px;
     width: 80%;
     background-color: azure;
@@ -9,7 +9,7 @@
 h1{
     text-align: center;
 }
-#container div{
+.container div{
     height: 100px;
     width: 300px;
     color: white;
