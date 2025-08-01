@@ -2,7 +2,7 @@
 // 1 = Monday, 2 = tuesday & so on
 
 console.log("1 to 7 days weekly charts:");
-let day = 12;
+let day = 2;
 switch(day){
     
     case 1:
