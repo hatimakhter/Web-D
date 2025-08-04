@@ -10,4 +10,4 @@ switch (quarter){
     break;
     default :console.log("Not a quarter");
 
-}
+} 
