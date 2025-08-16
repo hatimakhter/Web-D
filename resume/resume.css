@@ -1,0 +1,12 @@
+.head{
+    text-align: center;
+}
+#head_h{
+    font-weight: 200;
+}
+#obj{
+    font-weight: 50;
+}
+h2,p{
+    margin: 0;
+}
