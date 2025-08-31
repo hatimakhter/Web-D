@@ -1,4 +1,4 @@
-let url = "http://universities.hipolabs.com/search?name=";
+LJlet url = "http://universities.hipolabs.com/search?name=";
 let btn = document.querySelector("button");
 
 btn.addEventListener("click", async () => {
@@ -32,4 +32,4 @@ async function getCollege(country) {
         console.log("error- ",err);
         return [];
     }
-}
+} 
