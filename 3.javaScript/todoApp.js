@@ -21,7 +21,7 @@ while(true){
         let idx = prompt("please enter task Index");
         todo.splice(idx, 1);
         console.log("task delete");
-    } 
+    }  
     else{
         req = prompt("please enter your Request");
     }
