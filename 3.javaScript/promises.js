@@ -9,7 +9,7 @@ function changeColor(color, delay){
         }, delay);
     });
 }
-
+ 
 changeColor("red", 1000)
 .then((res) => {
     console.log(res); 
