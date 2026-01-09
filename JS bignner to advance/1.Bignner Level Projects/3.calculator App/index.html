@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+
+        <div class="cal">
+<!-- upper calculator -->
+            <div class="up-cal">
+
+                <div class="mode" id="mode-toggle">
+                    <div id="li-mode"><i class="fa-regular fa-sun"></i></div>
+                    <div id="dark-mode"><i class="fa-regular fa-moon"></i></div>
+                </div>
+                <div id="his"><i class="fa-solid fa-clock-rotate-left"></i></div>            
+            </div>
+            <div class="screen">
+                <div id="expression">0</div>
+                <div id="result"></div>
+            </div>
+
+<!--down calculator -->
+            <div class="down-cal">
+
+                <div class="btns">
+
+                    <div class="first-row">                                        
+                        <button  id="ac" class="calculate" ><b>AC</b></button>                             
+                        <button id="backspace" class="calculate" ><i class="fa-solid fa-delete-left"></i></button>               
+                        <button id="percent" class="calculate" ><b>%</b></button>             
+                        <button id="divison" class="calculate" ><i class="fa-solid fa-divide"></i></button>
+                    </div>   
+
+                    <div class="sec-row">  
+                        <button id="seven" >7</button>                                                        
+                        <button id="eight" >8</button>               
+                        <button id="nine" >9</button>              
+                        <button id="multiply" class="calculate" ><i class="fa-solid fa-xmark"></i></button>              
+                    </div>
+
+                    <div class="third-row">
+                        <button id="four" >4</button>
+                        <button id="five" >5</button>
+                        <button id="six" >6</button>
+                        <button id="minus" class="calculate" ><i class="fa-solid fa-minus"></i></button>
+                    </div>
+               
+                    <div class="fourth">
+                        <button id="one" >1</button>
+                        <button id="two" >2</button>
+                        <button id="three" >3</button>
+                        <button id="add" class="calculate" ><i class="fa-solid fa-plus"></i></button>
+                    </div>
+               
+                    <div class="last-row">
+                         <button id="dot" ><b>.</b></button>
+                         <button id="zero" >0</button>
+                         <button id="d-zero" >00</button>
+                         <button id="equal" class="calculate" ><i class="fa-solid fa-equals"></i></button>
+                    </div>
+
+            </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
