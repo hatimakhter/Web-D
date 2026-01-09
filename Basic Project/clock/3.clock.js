@@ -45,4 +45,4 @@ function updateClock(){
 
 createNumbers();
 setInterval(updateClock, 1000);
-updateClock();
+updateClock();  
