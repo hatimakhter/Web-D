@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h2>Form validation</h2>
+
+            <p>First Name</p>
+            <input id="firstname" type="text" placeholder="Mohammad Hatim">
+
+            <p>Last Name</p>
+            <input id="lastname" type="text" placeholder="Akhter">
+
+            <p>Email id</p>
+            <input id="email" type="email" placeholder="hatimak6@gmail.com">
+            
+            <div class="pass-box">
+                <p>Password</p>
+                <input id="password" type="password" placeholder="Enter your password">
+                <span onclick="toggle()"><i class="fa-solid fa-eye"></i></span>
+            </div>
+
+
+            <p>Birth Date</p>
+            <input id="dob" type="date">
+
+            <p>Gender</p>
+            <select id="gender">
+                <option>Select gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+             </select>
+    
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
