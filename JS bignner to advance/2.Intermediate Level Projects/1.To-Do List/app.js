@@ -36,4 +36,9 @@ form.addEventListener('submit', function (e) {
     taskList.appendChild(li);
     
     input.value = "";
+<<<<<<< HEAD
 });
+=======
+
+});
+>>>>>>> c690141b09bcce1c37deffc364a0614b97a5e399
